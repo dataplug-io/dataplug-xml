@@ -16,12 +16,6 @@ describe('dataplug-xml', () => {
       .that.is.an('function')
   })
 
-  it('should have "XmlSequentialStreamsReader" class', () => {
-    dataplugXml
-      .should.have.property('XmlSequentialStreamsReader')
-      .that.is.an('function')
-  })
-
   it('should have "XmlStreamReader" class', () => {
     dataplugXml
       .should.have.property('XmlStreamReader')

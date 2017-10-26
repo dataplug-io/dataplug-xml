@@ -4,7 +4,7 @@ require('chai')
 const { XmlStreamReader } = require('../lib')
 
 describe('XmlStreamReader', () => {
-  it('should transform XML to object', () => {
+  it('transforms XML to object', () => {
     const object = {
       attr: 'attrValue',
       subObject: {

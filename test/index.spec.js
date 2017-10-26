@@ -4,25 +4,25 @@ require('chai')
 const dataplugXml = require('../lib')
 
 describe('dataplug-xml', () => {
-  it('should have "deserializeFromXml" function', () => {
+  it('has "deserializeFromXml" function', () => {
     dataplugXml
       .should.have.property('deserializeFromXml')
       .that.is.an('function')
   })
 
-  it('should have "serializeToXml" function', () => {
+  it('has "serializeToXml" function', () => {
     dataplugXml
       .should.have.property('serializeToXml')
       .that.is.an('function')
   })
 
-  it('should have "XmlStreamReader" class', () => {
+  it('has "XmlStreamReader" class', () => {
     dataplugXml
       .should.have.property('XmlStreamReader')
       .that.is.an('function')
   })
 
-  it('should have "XmlStreamWriter" class', () => {
+  it('has "XmlStreamWriter" class', () => {
     dataplugXml
       .should.have.property('XmlStreamWriter')
       .that.is.an('function')

@@ -27,7 +27,6 @@
   "homepage": "https://github.com/dataplug-io/dataplug-xml#readme",
   "dependencies": {
     "bluebird": "^3.5.1",
-    "chai-as-promised": "^7.1.1",
     "libxmljs": "^0.18.7",
     "lodash": "^4.17.4",
     "xmldom": "^0.1.27",
@@ -35,6 +34,7 @@
   },
   "devDependencies": {
     "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
     "coveralls": "^3.0.0",
     "jsdoc": "^3.5.5",
     "mocha": "^4.0.1",
